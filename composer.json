@@ -4,7 +4,13 @@
   "type": "metapackage",
   "license": "proprietary",
   "minimum-stability": "dev",
+  "prefer-stable": true,
   "require": {
     "php": ">=7.1"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "201910.x-dev"
+    }
   }
 }
